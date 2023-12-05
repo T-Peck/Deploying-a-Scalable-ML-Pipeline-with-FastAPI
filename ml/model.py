@@ -21,8 +21,7 @@ def train_model(X_train, y_train):
         Trained machine learning model.
     """
    # TODO: implement the function
-    model = LogisticRegression()
-    model.fit(X_train, y_train)
+    model = LogisticRegression().fit(X_train, y_train)
     return model
     pass
 
