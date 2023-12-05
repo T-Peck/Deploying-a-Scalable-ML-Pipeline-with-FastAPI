@@ -65,6 +65,7 @@ def inference(model, X):
     """
     # TODO: implement the function
     preds=model.predict(X)
+    return preds
     pass
 
 def save_model(model, path):
